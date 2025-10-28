@@ -1,0 +1,114 @@
+=======================================
+RePe Fitness - KURULUM KILAVUZU
+=======================================
+
+YÖNTEM 1: XAMPP ile (En Kolay ve Önerilen)
+
+─────────────────────────────────────
+
+ADIM 1: XAMPP İndirme ve Kurulum
+---------------------------------
+1. https://www.apachefriends.org/tr/download.html adresinden XAMPP'ı indirin
+2. İndirdiğiniz dosyayı çalıştırın ve kurulumu tamamlayın
+3. Kurulum sırasında Apache ve MySQL'i seçin
+
+ADIM 2: XAMPP'ı Başlatma
+------------------------
+1. XAMPP Control Panel'i açın
+2. "Apache" yanındaki "Start" butonuna tıklayın (yeşil yanar)
+3. "MySQL" yanındaki "Start" butonuna tıklayın (yeşil yanar)
+
+ADIM 3: Projeyi Kopyalama
+-------------------------
+1. Bu klasörü (proje1) şu konuma kopyalayın:
+   C:\xampp\htdocs\
+
+2. Kopyalama sonrası yol şöyle olmalı:
+   C:\xampp\htdocs\proje1\
+
+ADIM 4: Veritabanı Oluşturma
+----------------------------
+1. Tarayıcınızda şu adresi açın: http://localhost/phpmyadmin
+2. Sol menüde "Yeni" butonuna tıklayın
+3. Veritabanı adı olarak: hesaplar
+4. "Olştur" butonuna tıklayın
+
+ADIM 5: Veritabanı Tablosunu Oluşturma
+---------------------------------------
+1. hesaplar veritabanını seçin
+2. "SQL" sekmesine tıklayın
+3. Aşağıdaki kodu yapıştırın:
+
+CREATE TABLE IF NOT EXISTS `hesaplar` (
+  `userid` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(100) NOT NULL,
+  `surname` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL UNIQUE,
+  `password` varchar(255) NOT NULL,
+  PRIMARY KEY (`userid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+4. "Git" butonuna tıklayın
+
+ADIM 6: Projeyi Çalıştırma
+--------------------------
+1. Tarayıcınızı açın
+2. Şu adresi yazın: http://localhost/proje1
+3. Proje açılacak!
+
+=======================================
+
+PROJE ADRESLERİ:
+=======================================
+
+Ana Sayfa:      http://localhost/proje1
+Kayıt Ol:       http://localhost/proje1/register.php
+Giriş Yap:      http://localhost/proje1/login.php
+Egzersizler:    http://localhost/proje1/egzersiz.php
+Program:        http://localhost/proje1/program.php
+Blog:           http://localhost/proje1/blog.php
+Admin:          http://localhost/proje1/admin.php
+
+Admin Giriş Bilgileri:
+  Kullanıcı Adı: admin
+  Şifre: admin123
+
+=======================================
+
+YÖNTEM 2: PHP Built-in Server (Alternatif)
+=======================================
+
+Eğer XAMPP kurmak istemiyorsanız:
+
+1. Komut satırını açın (CMD)
+2. Proje klasörüne gidin:
+   cd C:\Users\remzi\OneDrive\Masaüstü\proje1
+
+3. PHP sunucusunu başlatın:
+   php -S localhost:8000
+
+4. Tarayıcıda açın: http://localhost:8000
+
+NOT: Bu yöntemle çalıştırırken MySQL'i ayrı kurmanız gerekir.
+
+=======================================
+
+SORUN GİDERME
+=======================================
+
+Problem: "Veritabanı Bağlantısı sağlanamadı" hatası
+Çözüm: XAMPP'ta MySQL'in çalıştığından emin olun
+
+Problem: CSS'ler yüklenmemiş görünüyor
+Çözüm: Tarayıcıda Ctrl+F5 ile sayfayı yenileyin (hard refresh)
+
+Problem: Fotoğraflar görünmüyor
+Çözüm: image/ klasörünün var olduğundan emin olun
+
+Problem: Yönlendirme çalışmıyor
+Çözüm: Apache'nin çalıştığından emin olun
+
+=======================================
+
+İYİ KULLANMALAR! 🚀
+

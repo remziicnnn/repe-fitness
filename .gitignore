@@ -1,0 +1,44 @@
+# Git ignore dosyası - Hassas bilgileri GitHub'a yükleme
+
+# Veritabanı dosyaları
+*.sql
+*.db
+*.sqlite
+
+# Hassas yapılandırma dosyaları (eğer varsa)
+config.php
+.env
+*.env
+
+# IDE ve editör dosyaları
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Log dosyaları
+*.log
+logs/
+
+# Geçici dosyalar
+tmp/
+temp/
+*.tmp
+
+# Windows thumbnail cache
+Thumbs.db
+ehthumbs.db
+
+# Backup dosyaları
+*.bak
+*.backup
+
+# Sistem dosyaları
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
