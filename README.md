@@ -8,73 +8,16 @@
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-**Modern ve kullanıcı dostu fitness platformu**
 
-[Özellikler](#-özellikler) • [Kurulum](#-kurulum) • [Kullanım](#-kullanım) • [Ekran Görüntüleri](#-ekran-görüntüleri)
+
+ • [Kurulum](#-kurulum) • [Kullanım](#-kullanım) • [Ekran Görüntüleri](#-ekran-görüntüleri)
 
 </div>
-
----
-
-## 📋 İçindekiler
-
-- [Hakkında](#-hakkında)
-- [Özellikler](#-özellikler)
-- [Teknolojiler](#-teknolojiler)
-- [Kurulum](#-kurulum)
-- [Veritabanı Yapısı](#-veritabanı-yapısı)
-- [Kullanım](#-kullanım)
-- [Güvenlik](#-güvenlik)
-- [Katkıda Bulunma](#-katkıda-bulunma)
-
----
 
 ## 🎯 Hakkında
 
 RePe Fitness, kullanıcıların fitness hedeflerine ulaşmalarına yardımcı olan kapsamlı bir web platformudur. Modern tasarımı, kullanıcı dostu arayüzü ve güçlü özellikleriyle hem yeni başlayanlara hem de deneyimli sporculara hitap eder.
 
-### ✨ Neden RePe Fitness?
-
-- 🎨 **Modern Tasarım**: Gradient renkler ve smooth animasyonlarla zenginleştirilmiş arayüz
-- 📱 **Responsive**: Tüm cihazlarda mükemmel çalışma
-- 🔒 **Güvenli**: Bcrypt hash ile şifre güvenliği
-- 💾 **Veritabanı Destekli**: Programlarınız kalıcı olarak saklanır
-- 🧮 **Hesap Makineleri**: Kalori ve vücut yağ oranı hesaplayıcıları
-- 📝 **Kişisel Programlar**: Kendi antrenman programınızı oluşturun
-
----
-
-## 🚀 Özellikler
-
-### 👤 Kullanıcı Yönetimi
-- ✅ Güvenli kayıt ve giriş sistemi
-- 🔐 Bcrypt hash ile şifre koruması
-- 📧 Email doğrulama
-- 👨‍💼 Kullanıcı profili yönetimi
-
-### 💪 Egzersizler
-- 🎯 Kategori bazlı egzersizler
-- 🖼️ Görsel açıklamalar
-- 🔍 Kolay gezinme
-- 📂 Biceps, Triceps, Omuz, Sırt, Bacak kategorileri
-
-### 📅 Program Oluşturma
-- ➕ Kişisel program oluşturma
-- 💾 Veritabanında saklama
-- 🗑️ Program silme
-- 📊 Detaylı program görüntüleme
-
-### 📊 Hesap Makineleri
-- 🔥 **Günlük Kalori İhtiyacı**: BMI'ye göre kalori hesaplama
-- 📏 **Vücut Yağ Oranı**: Amerikan Diyabet Derneği formülü ile hesaplama
-
-### 📚 Blog ve İçerik
-- 📖 Egzersiz içerikleri
-- 💊 Comparison Overview: Protein tozu bilgileri
-- 📈 Progressive Overload teknikleri
-- 🎓 Fitness ipuçları
-
----
 
 ## 🛠️ Teknolojiler
 
@@ -99,7 +42,7 @@ RePe Fitness, kullanıcıların fitness hedeflerine ulaşmalarına yardımcı ol
 ### Adım 1: Dosyaları İndirin
 
 ```bash
-git clone https://github.com/KULLANICI_ADINIZ/repe-fitness.git
+git clone https://github.com/remziicnnn/repe-fitness.git
 cd repe-fitness
 ```
 
@@ -240,56 +183,20 @@ Kullanıcı programlarını saklar.
 ## 📸 Ekran Görüntüleri
 
 ### Ana Sayfa
-Modern ve çekici gradient tasarım ile hoş geldiniz.
+<img width="1902" height="916" alt="image" src="https://github.com/user-attachments/assets/e365d8b3-2938-4805-b505-817f25e5e16f" />
+
 
 ### Program Oluşturma
-Kişisel antrenman programınızı kolayca oluşturun ve yönetin.
+<img width="1901" height="913" alt="image" src="https://github.com/user-attachments/assets/636054bb-3e2b-477e-8fe0-012d8aae54aa" />
+
 
 ### Egzersizler
-Kategori bazlı egzersizler ile antrenmanınızı planlayın.
+<img width="1903" height="914" alt="image" src="https://github.com/user-attachments/assets/724eb5da-44c9-4e4d-9eb3-541f2deecb0f" />
+
 
 ---
 
-## 🤝 Katkıda Bulunma
 
-Katkılarınızı bekliyoruz! Lütfen şu adımları takip edin:
-
-1. Fork edin
-2. Feature branch oluşturun (`git checkout -b feature/AmazingFeature`)
-3. Commit edin (`git commit -m 'Add some AmazingFeature'`)
-4. Branch'inizi push edin (`git push origin feature/AmazingFeature`)
-5. Pull Request açın
-
----
-
-## 📝 Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır.
-
----
-
-## 👨‍💻 Geliştirici
-
-**RePe Fitness Team**
-
-- 💼 [GitHub Profili](https://github.com/KULLANICI_ADINIZ)
-- 📧 Email: contact@repefitness.com
-
----
-
-## 🙏 Teşekkürler
-
-- [Font Awesome](https://fontawesome.com/) - İkonlar için
-- [MySQL](https://www.mysql.com/) - Veritabanı için
-- [PHP](https://www.php.net/) - Backend için
-
----
-
-<div align="center">
-
-**⭐ Bu projeyi beğendiyseniz yıldız vermeyi unutmayın! ⭐**
-
-Made with ❤️ by RePe Fitness Team
 
 </div>
 
